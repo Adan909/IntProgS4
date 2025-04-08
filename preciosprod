@@ -1,0 +1,7 @@
+prod1 = int(input("Dime el precio del producto 1: "))
+prod2 = int(input("Dime el precio del producto 2: "))       
+prod3 = int(input("Dime el precio del producto 3: "))
+subtotal = prod1 + prod2 + prod3
+iva = subtotal * 0.15
+total = subtotal + iva
+print(f"Subtotal: {subtotal} \nIVA: {iva} \nTotal: {total}")
